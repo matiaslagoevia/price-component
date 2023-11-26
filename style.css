@@ -3,15 +3,163 @@
 body {
   display: flex;
   flex-direction: column;
+
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  line-height: 1.5;
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
+
   width: 80%;
-  max-width: 1440px;
+  max-width: 635px;
   margin: 0 auto;
 }
 
 footer {
   text-align: center;
 }
+
+.price-component {
+  display: grid;
+  grid-template-areas:
+    "a a"
+    "b b"
+    "c c";
+  /* https://stackoverflow.com/a/61240964 */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  border-radius: 0.5em;
+}
+
+.price-component div {
+  padding: 2.5em;
+}
+
+.price-component ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0.875rem;
+}
+
+.price-component h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.price-component h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.75em;
+}
+
+.summary {
+  grid-area: a;
+
+  background-color: white;
+}
+
+.summary h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+.summary h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.summary p {
+  color: hsl(218, 22%, 67%);
+}
+
+.sign-up {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.sign-up button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+
+  border: 0;
+  border-radius: 0.5em;
+  margin-top: 1.5em;
+  padding: 0.75em;
+}
+
+.sign-up button:hover {
+  opacity: 0.75;
+  filter: drop-shadow(0.125em 0.125em black);
+  cursor: pointer;
+}
+
+.why-us {
+  grid-area: c;
+
+  background-color: #4abfbd;
+  color: white;
+}
+
+.half-dim {
+  opacity: 50%;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.amount {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  .price-component {
+    grid-template-areas:
+      "a a"
+      "b c";
+  }
+}
+
+/**
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+*/
