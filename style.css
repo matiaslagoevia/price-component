@@ -1,0 +1,17 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+}
