@@ -45,6 +45,7 @@ Users should be able to:
 ### What I learned
 
 **Code Reuse with a Template.**
+
 I noticed that for the past challenges, I was reusing a lot of the same initial content ideas. I created [fet](https://github.com/matiaslagoevia/fet) and started this challenge from that started code, and will do the same for future ones!
 
 **Using `CSS Grid`.**
