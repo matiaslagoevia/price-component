@@ -32,7 +32,7 @@ Users should be able to:
 
 - Solution URL: [https://www.frontendmentor.io/solutions/responsive-price-component-using-css-grid-and-flexbox-gcFeeFjFqN](https://www.frontendmentor.io/solutions/responsive-price-component-using-css-grid-and-flexbox-gcFeeFjFqN)
 
-- Live Site URL: [https://price-component.matiaslagoevia.com](https://price-component.matiaslagoevia.com)
+- Live Site URL: [https://price-component.matiaslagoevia.me](https://price-component.matiaslagoevia.me)
 
 ## My process
 
@@ -84,5 +84,5 @@ I'd like to continue to work on the following:
 
 ## Author
 
-- Website - [matiaslagoevia.com](https://matiaslagoevia.com)
+- Website - [matiaslagoevia.me](https://matiaslagoevia.me)
 - Frontend Mentor - [@matiaslagoevia](https://www.frontendmentor.io/profile/matiaslagoevia)
